@@ -6,7 +6,7 @@ int NumberMultiplication(int num)
     int mult = 1;
     for (int i = 1; i <= num; i++)
     {
-        mult = mult * num;
+        mult = mult * i;
     }
     return mult;
 }
